@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://www.frontendworkshop.com/courses/bootstrap-4-responsive-web-design-and-development/files/bootstrap.min.css">
+
+    <!-- Styling to better show these examples -->
+    <style type="text/css">
+      body {
+        padding-top: 100px;
+        padding-right: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- Write your solution under this comment -->
+    
+    <button type="button" class="btn btn-info" data-toggle="popover" title="Popover title" data-content="content of the popover">Popover for button</button>
+    
+    <!-- Write your solution above this comment -->
+    
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="http://www.frontendworkshop.com/courses/bootstrap-4-responsive-web-design-and-development/files/jquery.min.js"></script>
+    <script src="http://www.frontendworkshop.com/courses/bootstrap-4-responsive-web-design-and-development/files/bootstrap.bundle.min.js"></script>
+
+    <!-- Script that initialize all popovers on a page -->
+    <script type="text/javascript">
+      $(function() {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+  </body>
+</html>
