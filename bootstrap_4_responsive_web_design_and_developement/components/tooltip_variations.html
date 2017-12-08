@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://www.frontendworkshop.com/courses/bootstrap-4-responsive-web-design-and-development/files/bootstrap.min.css">
+
+    <!-- Styling to better show these examples -->
+    <style type="text/css">
+      body {
+        padding-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- Write your solution under this comment -->
+    
+    <button type="button" class="btn btn-primary" data-toggle="tooltip" title="<strong>Tooltip</strong> <small>with</small> <span class='badge badge-primary'>custom</span> <em>HTML</em>" data-html="true">Tooltip with custom HTML</button>
+
+    <button type="button" class="btn btn-primary" data-toggle="tooltip" title="Tooltip on bottom" data-placement="bottom">Tooltip on bottom</button>
+
+    <button type="button" class="btn btn-primary" data-toggle="tooltip" title="Tooltip without animation" data-animation="false">Tooltip without animation</button>
+
+    <button type="button" class="btn btn-primary" data-toggle="tooltip" title="Tooltip with delay" data-delay="500">Tooltip with delay</button>
+
+    <button type="button" class="btn btn-primary" data-toggle="tooltip" title="Triggered by click" data-trigger="click">Trigger by click</button>
+    
+    <!-- Write your solution above this comment -->
+    
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="http://www.frontendworkshop.com/courses/bootstrap-4-responsive-web-design-and-development/files/jquery.min.js"></script>
+    <script src="http://www.frontendworkshop.com/courses/bootstrap-4-responsive-web-design-and-development/files/bootstrap.bundle.min.js"></script>
+
+    <!-- Script that initialize all tooltips on a page -->
+    <script type="text/javascript">
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+  </body>
+</html>
